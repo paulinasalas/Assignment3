@@ -1,0 +1,267 @@
+﻿using System;
+
+namespace Assignment3
+{
+    class Assignment3
+    {
+        public static void Main(string[] args)
+        {
+            //Welcome message
+            Console.WriteLine("Welcome to Birthday Date Meaning Generator!");
+            Console.WriteLine("Please enter the month of your birthday: ");
+            string month = Console.ReadLine();
+            Console.WriteLine("Please enter the day of your birthday: ");
+            string day = Console.ReadLine();
+            Console.WriteLine("Please enter the year of your birthday: ");
+            string year = Console.ReadLine();
+            //Month meaning
+            switch (month)
+            {
+                case "January":
+                    Console.WriteLine("The month of " + month + " means Janus");
+                    break;
+                case "February":
+                    Console.WriteLine("The month of " + month + " means Februalia");
+                    break;
+                case "March":
+                    Console.WriteLine("The month of " + month + " means Mars");
+                    break;
+                case "April":
+                    Console.WriteLine("The month of " + month + " means aperire");
+                    break;
+                case "May":
+                    Console.WriteLine("The month of " + month + " means maia");
+                    break;
+                case "June":
+                    Console.WriteLine("The month of " + month + " means youth");
+                    break;
+                case "July":
+                    Console.WriteLine("The month of " + month + " means Julius Cesar");
+                    break;
+                case "August":
+                    Console.WriteLine("The month of " + month + " means Augustus Cesar");
+                    break;
+                case "September":
+                    Console.WriteLine("The month of " + month + " means seven");
+                    break;
+                case "October":
+                    Console.WriteLine("The month of " + month + " means eight");
+                    break;
+                case "November":
+                    Console.WriteLine("The month of " + month + " means nine");
+                    break;
+                default:
+                    Console.WriteLine("The month of " + month + " means ten");
+                    break;
+            }
+            //Day meaning
+            switch (day)
+            {
+                case "1":
+                    Console.WriteLine("The " + day + "st of " + month + " means self started");
+                    break;
+                case "2":
+                    Console.WriteLine("The " + day + "nd of " + month + " means intuitive");
+                    break;
+                case "3":
+                    Console.WriteLine("The " + day + "rd of " + month + " means expressionate");
+                    break;
+                case "4":
+                    Console.WriteLine("The " + day + "th of " + month + " means rational");
+                    break;
+                case "5":
+                    Console.WriteLine("The " + day + "th of " + month + " means flexibility");
+                    break;
+                case "6":
+                    Console.WriteLine("The " + day + "th of " + month + " means loving");
+                    break;
+                case "7":
+                    Console.WriteLine("The " + day + "th of " + month + " means refined mind");
+                    break;
+                case "8":
+                    Console.WriteLine("The " + day + "th of " + month + " means success");
+                    break;
+                case "9":
+                    Console.WriteLine("The " + day + "th of " + month + " means shining");
+                    break;
+                case "10":
+                    Console.WriteLine("The " + day + "th of " + month + " means leadership");
+                    break;
+                case "11":
+                    Console.WriteLine("The " + day + "th of " + month + " means intuitive");
+                    break;
+                case "12":
+                    Console.WriteLine("The " + day + "th of " + month + " means creative");
+                    break;
+                case "13":
+                    Console.WriteLine("The " + day + "th of " + month + " means conscientious");
+                    break;
+                case "14":
+                    Console.WriteLine("The " + day + "th of " + month + " means open minded");
+                    break;
+                case "15":
+                    Console.WriteLine("The " + day + "th of " + month + " means loving");
+                    break;
+                case "16":
+                    Console.WriteLine("The " + day + "th of " + month + " means inquisitive");
+                    break;
+                case "17":
+                    Console.WriteLine("The " + day + "th of " + month + " means independent");
+                    break;
+                case "18":
+                    Console.WriteLine("The " + day + "th of " + month + " open hearted");
+                    break;
+                case "19":
+                    Console.WriteLine("The " + day + "th of " + month + " means independent");
+                    break;
+                case "20":
+                    Console.WriteLine("The " + day + "th of " + month + " means cooperative");
+                    break;
+                default:
+                    Console.WriteLine("The" + day + "th of " + month + "means socialite");
+                    break;
+            }
+            //Year meaning
+            switch (year)
+            {
+                case "2000":
+                    Console.WriteLine("The year of " + year + " means that you are a milennial");
+                    break;
+                default:
+                    Console.WriteLine("The year of " + year + " means that you are a gen z");
+                    break;
+            }
+            //Reloop Yes or no
+            Console.WriteLine("Would you like to try another one?1=Y/2=N");
+            char answer = Convert.ToChar(Console.ReadLine());
+            if (answer == '1')
+            {
+                Console.WriteLine("Welcome to Birthday Date Meaning Generator!");
+                Console.WriteLine("Please enter the month of your birthday: ");
+                string month2 = Console.ReadLine();
+                Console.WriteLine("Please enter the day of your birthday: ");
+                string day2 = Console.ReadLine();
+                Console.WriteLine("Please enter the year of your birthday: ");
+                string year2 = Console.ReadLine();
+                switch (month2)
+                {
+                    case "January":
+                        Console.WriteLine("The month of " + month2 + " means Janus");
+                        break;
+                    case "February":
+                        Console.WriteLine("The month of " + month2 + " means Februalia");
+                        break;
+                    case "March":
+                        Console.WriteLine("The month of " + month2 + " means Mars");
+                        break;
+                    case "April":
+                        Console.WriteLine("The month of " + month2 + " means aperire");
+                        break;
+                    case "May":
+                        Console.WriteLine("The month of " + month2 + " means maia");
+                        break;
+                    case "June":
+                        Console.WriteLine("The month of " + month2 + " means youth");
+                        break;
+                    case "July":
+                        Console.WriteLine("The month of " + month2 + " means Julius Cesar");
+                        break;
+                    case "August":
+                        Console.WriteLine("The month of " + month2 + " means Augustus Cesar");
+                        break;
+                    case "September":
+                        Console.WriteLine("The month of " + month2 + " means seven");
+                        break;
+                    case "October":
+                        Console.WriteLine("The month of " + month2 + " means eight");
+                        break;
+                    case "November":
+                        Console.WriteLine("The month of " + month2 + " means nine");
+                        break;
+                    default:
+                        Console.WriteLine("The month of " + month2 + " means ten");
+                        break;
+                }
+                switch (day2)
+                {
+                    case "1":
+                        Console.WriteLine("The " + day2 + "st of " + month2 + " means self started");
+                        break;
+                    case "2":
+                        Console.WriteLine("The " + day2 + "nd of " + month2 + " means intuitive");
+                        break;
+                    case "3":
+                        Console.WriteLine("The " + day2 + "rd of " + month2 + " means expressionate");
+                        break;
+                    case "4":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means rational");
+                        break;
+                    case "5":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means flexibility");
+                        break;
+                    case "6":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means loving");
+                        break;
+                    case "7":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means refined mind");
+                        break;
+                    case "8":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means success");
+                        break;
+                    case "9":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means shining");
+                        break;
+                    case "10":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means leadership");
+                        break;
+                    case "11":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means intuitive");
+                        break;
+                    case "12":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means creative");
+                        break;
+                    case "13":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means conscientious");
+                        break;
+                    case "14":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means open minded");
+                        break;
+                    case "15":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means loving");
+                        break;
+                    case "16":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means inquisitive");
+                        break;
+                    case "17":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means independent");
+                        break;
+                    case "18":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " open hearted");
+                        break;
+                    case "19":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means independent");
+                        break;
+                    case "20":
+                        Console.WriteLine("The " + day2 + "th of " + month2 + " means cooperative");
+                        break;
+                    default:
+                        Console.WriteLine("The" + day2 + "th of " + month2 + "means socialite");
+                        break;
+                }
+                switch (year2)
+                {
+                    case "2000":
+                        Console.WriteLine("The year of " + year2 + " means that you are a milennial");
+                        break;
+                    default:
+                        Console.WriteLine("The year of " + year2 + " means that you are a gen z");
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Thank you for playing");
+            }
+            }
+        }
+    }
